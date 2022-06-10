@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flixster</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="website-header">
+      <div id="website-name">
+        <h1>🎥 Flixster 🍿</h1>
+      </div>
+      <form id="search">
+        <input type="text" id="search-input" name="movies" />
+        <button type="submit" id="search-btn" class="btn-style">Search</button>
+        <button type="button" id="close-search-btn" class="btn-style">
+          Home
+        </button>
+      </form>
+    </div>
+
+    <section class="movies-section">
+      <h1>Now Playing ⭐</h1>
+      <div id="movies-grid"></div>
+    </section>
+
+    <section class="bottom-btn-section">
+      <button type="button" id="load-more-movies-btn" class="btn-style">
+        Load more
+      </button>
+      <button type="button" id="back-to-top-btn" class="btn-style">
+        Back to top
+      </button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
